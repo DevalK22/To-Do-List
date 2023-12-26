@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.container{
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+h2{
+    padding-top: 20px;
+    text-align: center;
+}
+.addTask{
+    background-color: #edeef0;
+    border-radius: 30px;
+    height: 50px;
+    width: 400px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+input.enter {
+    height: 50px;
+    margin-left: 20px;
+    flex:1;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background: transparent;
+}
+.submit{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: inherit;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
+}
+.submit1{
+    height:50px;
+    border-style: none;
+    border-radius: 30px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.task{
+    margin-top: 10px;
+    display: flex;
+    padding-bottom: 20px;
+    transition: text-decoration 0.5s ease-in-out, opacity 2s ease-in-out;
+}
+  
+.task.deleted {
+    text-decoration: line-through;
+    opacity: 0;
+  }
+  
+.content{
+    height: 40px;
+}
+.text{
+    border-radius: 5px;
+    margin-left: 40px;
+    height: 35px;
+    padding-left: 10px;
+    font-size: inherit;
+    width: 300px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+.edit{
+    height:35px;
+    border-style: none;
+    border-radius: 10px;
+    width: 45px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.delete{
+    height:35px;
+    border-style: none;
+    border-radius: 10px;
+    width: 50px;
+    cursor: pointer;
+}
