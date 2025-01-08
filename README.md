@@ -18,3 +18,8 @@ To get started with the project, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/DevalK22/To-Do-List.git
+
+## Link to the webite
+
+ https://devalk22.github.io/To-Do-List/
+
